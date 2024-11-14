@@ -65,7 +65,7 @@ const Part2 = () => {
                     <p className='text-yellow-500'>Buying Moonboxes is a unique way to aquire nfts and build your connection
                         It is built on the binance smart chain , MoonRiver, Polygon , Ethereum and
                         Dogechain.Onnly awailable on <span className='text-white'>Moonboex.io</span></p>
-                    <span className='btn bg-yellow-500 rounded-full'>Explore</span>
+                    <span className='btn bg-yellow-500 text-black rounded-full'>Explore</span>
                 </div>
             </div>
         </div >

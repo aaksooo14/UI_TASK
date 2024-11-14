@@ -16,7 +16,7 @@ const Part1 = () => {
                         It is built on the binance smart chain , MoonRiver, Polygon , Ethereum and
                         Dogechain.Onnly awailable on <span className='text-white'>Moonboex.io</span></p>
                     <div className='flex space-x-5 mt-[40px]'>
-                        <span className='btn bg-yellow-500 rounded-full'>Buy me a moon box</span>
+                        <span className='btn bg-yellow-500 rounded-full text-black'>Buy me a moon box</span>
                         <span className='text-5xl'>
                             <IoArrowDownCircleOutline />
                         </span>

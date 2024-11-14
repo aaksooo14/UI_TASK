@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="absolute md:mt-[3vh] top-[8vh] flex space-x-5">
                 {/* //1 */}
                 <div >
-                    <div className="text-3xl " onClick={() => setClose(!close)} >
+                    <div className="text-3xl text-black" onClick={() => setClose(!close)} >
                         <IoArrowBackCircleOutline />
                     </div>
                     {close &&
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
                 {/* //2 */}
                 <div >
-                    <div className="text-3xl" onClick={() => setDroplet(!droplet)} >
+                    <div className="text-3xl  text-black" onClick={() => setDroplet(!droplet)} >
                         <GiDroplets />
                     </div>
                     {
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </div>
                 {/* //3 */}
                 <div >
-                    <div className="text-3xl" onClick={() => setWallet(!wallet)} >
+                    <div className="text-3xl  text-black" onClick={() => setWallet(!wallet)} >
                         <FaWallet />
                     </div>
                     {wallet && <div className="absolute flex rounded mt-2 border-2 bg-black z-10 ">
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
                 {/* //4 */}
                 <div >
-                    <div className="text-3xl" onClick={() => setHistory(!history)} >
+                    <div className="text-3xl  text-black" onClick={() => setHistory(!history)} >
                         <GoHistory />
                     </div>
                     {history && <div className="absolute flex rounded mt-2  border-2 bg-black z-10 ">
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </div>
                 {/* //5 */}
                 <div >
-                    <div className="text-3xl" onClick={() => setInfo(!info)} >
+                    <div className="text-3xl  text-black" onClick={() => setInfo(!info)} >
                         <GrCircleInformation />
                     </div>
                     {info && <div className="absolute flex rounded mt-2  border-2 bg-black z-10 ">
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </div>
                 {/* //6 */}
                 <div >
-                    <div className="text-3xl" onClick={() => setWallet2(!wallet2)}>
+                    <div className="text-3xl  text-black" onClick={() => setWallet2(!wallet2)}>
                         <LuWallet />
                     </div>
                     {

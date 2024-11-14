@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 const BorderComponent = () => {
     return (
         <div className="md:h-screen h-[100vh] bg-yellow-500">
-            <div className=" Tier bg-black  text-yellow-500 pl-[10vh] absolute left-[30vw] border-2 p-2 w-[200px] bottom-[10vh]  z-10 ">
+            <div className=" Tier bg-black   text-yellow-500 pl-[10vh] absolute left-[30vw] border-2 p-2 w-[200px] bottom-[10vh]  z-10 ">
                 <span>Tier</span>
             </div>
             <div className="Balance absolute left-[45vw]   text-black  w-[200px] bottom-[12vh]  z-10 ">
@@ -22,13 +22,13 @@ const BorderComponent = () => {
 
                 <div className="container-1 relative  bg-yellow-500 flex justify-center items-center">
                     <div className="absolute top-0 left-0">
-                        <h1 className="text-2xl md:pl-10 pl-4 pt-5 font-bold">
+                        <h1 className="text-2xl md:pl-10 pl-4 pt-5 font-bold text-black">
                             <span className="text-white font-bold">MOON</span>BOXES
                         </h1>
                     </div>
                     <Navbar />
                     <div className="absolute top-0 right-[2vw] pt-5">
-                        <span className="text-4xl  ">
+                        <span className="text-4xl text-black  ">
                             <IoMdClose />
                         </span>
                     </div>
@@ -40,15 +40,15 @@ const BorderComponent = () => {
                     </div>
                 </div>
                 <div className="bg-yellow-500 border-l-2 border-l-black p-4">
-                    <div className="mb-4 text-4xl">
+                    <div className="mb-4 text-4xl text-black">
                         <LuWallet />
                     </div>
                     <div className="vertical-text md:flex">
-                        <span>Moonshot</span>
+                        <span className="text-black">Moonshot</span>
                         <hr className="w-full my-2 border-black" />
-                        <span>MoonSea</span>
+                        <span className="text-black">MoonSea</span>
                         <hr className="w-full my-2 border-black" />
-                        <span>Tokenmics</span>
+                        <span className="text-black">Tokenmics</span>
                     </div>
 
                 </div>
